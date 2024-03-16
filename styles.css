@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.prod-img-section {
+    max-width: 350px;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.prod-detail-section {
+    margin-top: -4px;
+    max-width: 350px;
+    padding: 20px;
+    background-color: white;
+}
+
+.product-type {
+    font-family: Montserrat;
+    letter-spacing: 3.5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: hsla(224, 30%, 27%, 0.5);
+    margin: 10px 0 15px 0;
+}
+
+.product-name {
+    font-family: Fraunces;
+    font-size: 33px;
+    line-height: 33px;
+    color: #21272C;
+    margin: 10px 0;
+}
+
+.product-des {
+    font-family: Montserrat;
+    line-height: 21px;
+    font-size: 14.6px;
+    font-weight: 600;
+    padding: 10px 0 ;
+    color: hsla(224, 30%, 27%, 0.6);
+}
+
+.product-price {
+    padding: 10px 0;
+    display: inline-flex;
+}
+
+.offer-price {
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsla(158, 36%, 37%, 0.9);
+}
+
+.actual-price {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto 17px;
+    text-decoration: line-through;
+    color: hsla(224, 30%, 27%, 0.6);
+}
+
+.add-to-card {
+    margin: 10px 0 0 0;
+}
+
+#add-to-card {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: hsla(158, 36%, 37%, 0.9);
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#add-to-card:hover {
+    background-color: hsl(158, 68%, 18%);
+    cursor: pointer;
+}
+
+.cart-icon {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .prod-img-section {
+        max-width: 300px;
+    }
+
+    .prod-detail-section {
+        padding-right: 35px;
+        margin-top: 0px;
+        max-width: 300px;
+    }
+    
+    .product-type {
+        margin: 10px 0 15px 0;
+    }
+    
+    .product-name {
+        margin: 10px 0;
+    }
+    
+    .product-des {
+        padding: 20px 0 ;
+    }
+
+    .product-price {
+        padding: 15px 0 10px 0;
+    }
+
+    .add-to-card {
+        margin: 30px 0 0 0;
+    }
+
+    .product-img {
+        content:url("images/image-product-desktop.jpg");
+    }
+}
