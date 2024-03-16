@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/RaviBele/FrontEnd-Product-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/RaviBele/FrontEnd-Product-Preview-Card)
+- Live Site URL: [Netlify](https://singular-nasturtium-399fd5.netlify.app/)
 
 ## My process
 
